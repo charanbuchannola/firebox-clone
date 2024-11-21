@@ -72,7 +72,7 @@ main {
     }
   }
   .page2 {
-    padding: 5vh 10vw;
+    padding: 12vh 10vw;
     background-color: #1e1e1e;
     display: flex;
     & > * {
@@ -88,7 +88,7 @@ main {
         display: flex;
         flex-direction: column;
         gap: 1.5em;
-        padding-right: 2em;
+        padding-right: 1em;
 
         h2 {
           font-family: "Google Sans", sans-serif;
@@ -114,6 +114,7 @@ main {
         display: flex;
         flex-direction: column;
         gap: 1em;
+
         .top {
           display: flex;
           flex-direction: row;
@@ -146,7 +147,7 @@ main {
           display: flex;
           flex-direction: row;
           border-bottom: 2px solid #323232;
-          padding-bottom: 1.2em;
+          padding-right: 1.2em;
 
           justify-content: space-between;
 
@@ -175,6 +176,7 @@ main {
           flex-direction: row;
           border-bottom: 2px solid #323232;
           padding-bottom: 1.2em;
+          padding-right: 1.2em;
 
           justify-content: space-between;
 
@@ -197,6 +199,170 @@ main {
               color: #ffffff;
             }
           }
+        }
+      }
+      .bottom {
+        button {
+          display: inline-block;
+          padding: 8px 30px;
+          font-size: 20px;
+          color: #ffffff;
+          background-color: #1e1e1e;
+          border: 3px solid #ff9100;
+          border-radius: 30px;
+          cursor: pointer;
+          overflow: hidden;
+          position: relative;
+          transition: background-color 0.3s ease;
+        }
+        button:hover {
+          background-color: #ff9100;
+          color: black;
+        }
+      }
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+
+      padding-right: 2em;
+      padding-left: 2em;
+      gap: 2em;
+      .top {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        padding-right: 1em;
+
+        h2 {
+          font-family: "Google Sans", sans-serif;
+          font-size: 1.5em;
+          color: #ffffff;
+          font-weight: 100;
+        }
+        h1 {
+          font-family: "Google Sans", sans-serif;
+          font-size: 1.5em;
+          width: 60%;
+          color: #ffffff;
+        }
+        p {
+          font-family: "Google Sans", sans-serif;
+          font-size: 1.2em;
+          color: #ffffff;
+          width: 82%;
+          font-weight: 100;
+        }
+      }
+      .middle {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+
+        .top {
+          display: flex;
+          flex-direction: row;
+          border-bottom: 2px solid #323232;
+          padding-bottom: 1.2em;
+
+          justify-content: space-between;
+
+          .lefty {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1.5em;
+            img {
+              width: 2.5em;
+            }
+            h1 {
+              font-size: 1em;
+              font-weight: 100;
+              width: 80%;
+            }
+          }
+          .righty {
+            i {
+              color: #ffffff;
+            }
+          }
+        }
+        .mid {
+          display: flex;
+          flex-direction: row;
+          border-bottom: 2px solid #323232;
+          padding-right: 1.2em;
+
+          justify-content: space-between;
+
+          .lefty {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1.5em;
+            img {
+              width: 2.5em;
+            }
+            h1 {
+              font-size: 1em;
+              font-weight: 100;
+              color: #ffffff;
+            }
+          }
+          .righty {
+            i {
+              color: #ffffff;
+            }
+          }
+        }
+        .bot {
+          display: flex;
+          flex-direction: row;
+          border-bottom: 2px solid #323232;
+          padding-bottom: 1.2em;
+          padding-right: 1.2em;
+
+          justify-content: space-between;
+
+          .lefty {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1.5em;
+            img {
+              width: 2.5em;
+            }
+            h1 {
+              font-size: 1em;
+              font-weight: 100;
+              color: #ffffff;
+            }
+          }
+          .righty {
+            i {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+      .bottom {
+        button {
+          display: inline-block;
+          padding: 8px 30px;
+          font-size: 20px;
+          color: #ffffff;
+          background-color: #1e1e1e;
+          border: 3px solid #ff9100;
+          border-radius: 30px;
+          cursor: pointer;
+          overflow: hidden;
+          position: relative;
+          transition: background-color 0.3s ease;
+        }
+        button:hover {
+          background-color: #ff9100;
+          color: black;
         }
       }
     }
